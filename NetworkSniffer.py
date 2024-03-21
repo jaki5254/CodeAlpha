@@ -65,5 +65,5 @@ def process_packet(packet):
             if packet.haslayer(layer):
                  print(packet)
               
-
+#if use wireless communication than not use eth0, use wlan0
 sniff_packets("eth0")
